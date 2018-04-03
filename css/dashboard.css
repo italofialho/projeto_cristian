@@ -1,0 +1,78 @@
+.day-free {
+    background-position: -5px -273px;
+}
+
+.background-sprite {
+    background-image: url(../images/sprite.jpg);
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    border-radius: 2px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(153, 153, 153, 0.32);
+    border-image: initial;
+}
+
+.product-free {
+    background-position: 310px -275px;
+}
+
+nav {
+    background-color: rgb(82, 190, 244);
+    min-height: 50px;
+}
+
+.user-photo {
+    top: 10px;
+    background-color: rgb(82, 190, 244);
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    background-image: url(../images/user.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(153, 153, 153, 0.32);
+    border-image: initial;
+}
+
+#position-ranking,
+.buttons-top-dashboard {
+    background-color: rgba(153, 153, 153, 0.11);
+    font-size: 30px;
+    min-height: 130px;
+    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(153, 153, 153, 0.4);
+    border-image: initial;
+    padding: 20px 40px;
+}
+
+.hot-offers {
+    background-color: rgba(153, 153, 153, 0.11);
+    min-height: 150px;
+    border-radius: 2px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(153, 153, 153, 0.4);
+    border-image: initial;
+    padding: 20px;
+}
+
+#position-ranking span {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.hot-offers span {
+    font-weight: bold;
+    display: block;
+    font-family: Roboto, sans-serif;
+    font-size: 19px;
+    position: relative;
+}  
